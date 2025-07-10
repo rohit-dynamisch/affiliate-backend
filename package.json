@@ -2,21 +2,19 @@
   "name": "affiliate-server",
   "version": "1.0.0",
   "description": "A Node.js service for deferred deep linking",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js",
-    "build": "echo 'No build step required'"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
