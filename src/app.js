@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Mount routes
-app.use('/api', linkRoutes);
-app.use('/api', debugRoutes);
+app.use('/', linkRoutes);
+app.use('/', debugRoutes);
 
 module.exports = app;
