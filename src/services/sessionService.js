@@ -1,3 +1,5 @@
+// File: src/services/sessionService.js
+
 const sessions = new Map();
 
 const saveSession = (fingerprint, sessionData) => {

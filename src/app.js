@@ -1,3 +1,6 @@
+// File: src/app.js
+
+
 // const express = require('express');
 // const cors = require('cors');
 // const linkRoutes = require('./routes/linkRoutes');
@@ -43,6 +46,7 @@ app.get('/', (req, res) => {
     }
   });
 });
+
 
 // API routes
 app.use(linkRoutes);

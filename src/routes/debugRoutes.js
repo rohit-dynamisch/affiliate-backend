@@ -1,3 +1,4 @@
+// File: src/routes/debugRoutes.js
 const express = require('express');
 const router = express.Router();
 const { debugLinks, debugClearData } = require('../services/linkService');

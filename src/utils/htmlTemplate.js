@@ -1,3 +1,5 @@
+// File: src/utils/htmlTemplate.js
+
 const generateHtmlResponse = (appUrl, fallbackUrl) => `
   <!DOCTYPE html>
   <html>
